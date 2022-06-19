@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=DM+Sans&family=Indie+Flower&family=Major+Mono+Display&family=Orbitron&family=Overpass+Mono:wght@300&family=Stick&display=swap');
+body {
+    background-image: linear-gradient( to right, #5839F6 50%, #18092A 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    height: 827px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    right: -41px;
+    top: -102px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #5839F6;
+    background-image: repeating-linear-gradient(45deg, #5839f6 0px, #5839f6 10px, #5839f6 10px, #18092a 10px, #18092a 20px);
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    left: 17px;
+    top: 621px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #5839F6;
+    background-image: repeating-linear-gradient(45deg, #5839f6 0px, #5839f6 10px, #5839f6 10px, #ffff 10px, #ffff 20px);
+}
+
+#box {
+    position: absolute;
+    width: 73%;
+    height: 551px;
+    transform: translate(14%, 54%);
+    background: rgb(255 255 255 / 21%);
+    box-sizing: border-box;
+    /* box-shadow: 0px 0px 9px 6px rgb(255 255 255 / 33%); */
+    border-radius: 10px;
+    margin: -243px 53px;
+}
+
+.husky1 {
+    margin: 12px 0px 0px 717px;
+    width: 771px;
+    height: 598px;
+    background-size: 328px;
+    background-repeat: no-repeat;
+    background-image: url(./PngItem_1445284.png);
+    position: absolute;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9px 51px 0px 57px;
+}
+
+.nav #apps {
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(137 137 137 / 72%);
+    border: solid #ffffff0d 0px;
+    font-size: 32px;
+    width: 36px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#box .nav .nav1 {
+    color: white;
+    font-size: 24px;
+}
+
+#box .nav .nav2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#box .nav .nav2 ul li {
+    padding: 13px;
+    list-style: none;
+    display: inline-block;
+}
+
+h2 {
+    font-family: "stick";
+}
+
+h1 {
+    font-family: "stick";
+    padding: 74px 161px 0px;
+    color: white;
+    font-size: 37px;
+}
+
+p {
+    color: white;
+    width: 24rem;
+    padding: 0px 163px;
+}
+
+.content {
+    margin: -45px -46px;
+    transform: scale(0.92);
+}
+
+.whis-btn {
+    padding: 0px 10rem;
+}
+
+.btn1 {
+    font-family: cursive;
+    border: solid 0px;
+    width: 153px;
+    height: 39px;
+    border-radius: 22px;
+    background: linear-gradient(27deg, #ff0808, #fc8c05);
+    color: white;
+}
+
+.btn2 {
+    font-family: cursive;
+    border: solid 0px;
+    width: 153px;
+    height: 39px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.14);
+    color: white;
+}
+
+.footer {
+    backdrop-filter: blur(16px);
+    position: absolute;
+    width: 73%;
+    height: 87px;
+    transform: translate(14%, 54%);
+    background: rgba(255, 255, 255, 30%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 471px 51px;
+    filter: opacity(0.5);
+}
+
+.f-ico {
+    transform: scale(0.5);
+    display: flex;
+    flex-direction: row;
+    margin: 0px -20rem;
+}
+
+#ico {
+    background-color: white;
+    font-size: 43px;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    /* text-align: center; */
+    width: 62px;
+    display: flex;
+    margin: 10px 7px;
+    height: 61px;
+    border-radius: 55%;
+    align-items: center;
+    justify-content: space-evenly;
+}
